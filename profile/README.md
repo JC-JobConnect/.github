@@ -201,47 +201,47 @@ git pull origin main
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/login.png" alt="Login/Registration Page" width="800"><br>
+  <img src="../screenshorts/login.png" alt="Login/Registration Page" width="800"><br>
   <em>Login/Registration Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/home.png" alt="Home Page" width="800"><br>
+  <img src="../screenshorts/home.png" alt="Home Page" width="800"><br>
   <em>Home Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/joblist.png" alt="Jobs Listing Page" width="800"><br>
+  <img src="../screenshorts/joblist.png" alt="Jobs Listing Page" width="800"><br>
   <em>Jobs Listing Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/job%20details.png" alt="Job Details Page" width="800"><br>
+  <img src="../screenshorts/job%20details.png" alt="Job Details Page" width="800"><br>
   <em>Job Details Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/companies.png" alt="Companies Page" width="800"><br>
+  <img src="../screenshorts/companies.png" alt="Companies Page" width="800"><br>
   <em>Companies Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/myapplication.png" alt="My Applications Page" width="800"><br>
+  <img src="../screenshorts/myapplication.png" alt="My Applications Page" width="800"><br>
   <em>My Applications Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/my%20profile.png" alt="My Profile Page" width="800"><br>
+  <img src="../screenshorts/my%20profile.png" alt="My Profile Page" width="800"><br>
   <em>My Profile Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/about.png" alt="About Us Page" width="800"><br>
+  <img src="../screenshorts/about.png" alt="About Us Page" width="800"><br>
   <em>About Us Page</em>
 </p>
 
 <p align="center">
-  <img src="../job_connect%20Project/screenshorts/contact.png" alt="Contact Page" width="800"><br>
+  <img src="../screenshorts/contact.png" alt="Contact Page" width="800"><br>
   <em>Contact Page</em>
 </p>
 
