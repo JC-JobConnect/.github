@@ -6,7 +6,13 @@ A full-stack job portal application designed to connect job seekers with employe
 
 JobConnect is a web-based job portal developed as a collaborative team project. The application aims to simplify the job-searching process by providing a centralized platform where job seekers can explore available vacancies and companies.
 
-The project uses React for the frontend, Django REST Framework for backend API development, and PostgreSQL for database management.
+The project uses React.js for frontend development, Django REST Framework for backend API development, and PostgreSQL for database management.
+
+## 🌐 Live Application
+
+- **Frontend:** [JobConnect Web Application](https://jobconnectbd-tau.vercel.app/)
+- **Backend API:** [JobConnect Backend – Render](https://jobconnect-api-g13x.onrender.com/)
+- **JWT Authentication:** [API Token Endpoint](https://jobconnect-api-g13x.onrender.com/api/token/)
 
 ## ✨ Key Features
 
@@ -23,7 +29,6 @@ The project uses React for the frontend, Django REST Framework for backend API d
 ## 🛠️ Technologies Used
 
 ### Frontend
-
 - React.js
 - JavaScript
 - Axios
@@ -32,7 +37,6 @@ The project uses React for the frontend, Django REST Framework for backend API d
 - Tailwind CSS
 
 ### Backend
-
 - Python
 - Django
 - Django REST Framework
@@ -40,40 +44,22 @@ The project uses React for the frontend, Django REST Framework for backend API d
 - django-filter
 
 ### Database
-
 - PostgreSQL
 
 ### Development & Collaboration Tools
-
 - Git
 - GitHub
 - Visual Studio Code
 - Postman
 
-## 📂 Project Structure
+## 📂 Project Repositories
 
-```text
-JobConnect/
-│
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── Components/
-│       ├── Pages/
-│       ├── Services/
-│       └── App.jsx
-│
-├── backend/
-│   ├── config/
-│   ├── job/
-    ├── authentication/
-│   ├── manage.py
-│   ├── requirements.txt
-│   └── .env
-│
-├── README.md
-└── .gitignore
-```
+The project is maintained in two separate repositories under the JC-JobConnect GitHub organization.
+
+| Component | Technology | Repository |
+|---|---|---|
+| Frontend | React.js, Vite | [JobConnect Frontend](https://github.com/JC-JobConnect/JobConnect_frontend) |
+| Backend | Django, DRF | [JobConnect Backend](https://github.com/JC-JobConnect/jobconnect_api) |
 
 ## ⚙️ Installation & Setup
 
@@ -88,21 +74,22 @@ Make sure you have installed:
 - PostgreSQL
 - Git
 
-## 🔗 Project Repositories
+### 1. Clone the Repositories
 
-| Component | Technology  | Repository                                                                  |
-| --------- | ----------- | --------------------------------------------------------------------------- |
-| Frontend  | React, Vite | [Frontend Repository](https://github.com/JC-JobConnect/JobConnect_frontend) |
-| Backend   | Django, DRF | [Backend Repository](https://github.com/JC-JobConnect/jobconnect_api)       |
+Clone the frontend and backend repositories separately.
 
-### 1. Clone the Repository
+**Backend:**
 
 ```bash
-git clone https://github.com/orgs/JC-JobConnect/repositories
+git clone https://github.com/JC-JobConnect/jobconnect_api.git
+cd jobconnect_api
 ```
 
+**Frontend:**
+
 ```bash
-cd JobConnect
+git clone https://github.com/JC-JobConnect/JobConnect_frontend.git
+cd JobConnect_frontend
 ```
 
 ### 2. Backend Setup
@@ -130,7 +117,6 @@ Configure your `.env` file with the required database credentials and Django set
 Run database migrations:
 
 ```bash
-python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -146,11 +132,7 @@ Backend will run at:
 
 ### 3. Frontend Setup
 
-Open another terminal and navigate to the frontend directory:
-
-```bash
-cd frontend
-```
+Open another terminal and navigate to the frontend repository.
 
 Install dependencies:
 
@@ -170,13 +152,13 @@ The frontend will run at the local development URL displayed in your terminal.
 
 The backend provides RESTful APIs for job listings, company information, and user authentication.
 
-| Method | Endpoint              | Description               |
-| ------ | --------------------- | ------------------------- |
-| GET    | `/job/v1/jobs/`       | Retrieve job listings     |
-| GET    | `/job/v1/jobs/<id>/`  | Retrieve a specific job   |
-| GET    | `/job/v1/companies/`  | Retrieve company listings |
-| POST   | `/api/token/`         | Obtain JWT tokens         |
-| POST   | `/api/token/refresh/` | Refresh JWT tokens        |
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/job/v1/jobs/` | Retrieve job listings |
+| GET | `/job/v1/jobs/<id>/` | Retrieve a specific job |
+| GET | `/job/v1/companies/` | Retrieve company listings |
+| POST | `/api/token/` | Obtain JWT tokens |
+| POST | `/api/token/refresh/` | Refresh JWT tokens |
 
 ## 🔄 Git Workflow & Team Collaboration
 
@@ -194,9 +176,6 @@ Our workflow included:
 Example Git commands:
 
 ```bash
-# Clone the repository
-git clone https://github.com/orgs/JC-JobConnect/repositories
-
 # Check the current branch
 git branch
 
@@ -266,6 +245,7 @@ git pull origin main
   <em>Contact Page</em>
 </p>
 
+
 ## 👥 Team Members
 
 This project was developed collaboratively by:
@@ -284,6 +264,8 @@ This project was developed collaboratively by:
 - Advanced job recommendation system.
 - Email notifications for job opportunities.
 
-## 📄 License
+---
 
-This project was developed for educational and learning purposes.
+**Developed as a collaborative project for educational and learning purposes.**
+
+© 2026 JC-JobConnect. All rights reserved.
